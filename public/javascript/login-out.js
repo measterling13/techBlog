@@ -13,4 +13,4 @@ async function logout() {
   } else {
     alert(response.statusText);
   }
-}
+};

@@ -26,4 +26,4 @@ async function loginFormHandler(event) {
       alert(response.statusText);
     }
   }
-}
+};

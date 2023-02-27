@@ -35,13 +35,13 @@ async function newFormHandler(event) {
   } else {
     alert(response.statusText);
   }
-}
+};
 
 async function createPostHandler(event) {
   event.preventDefault();
 
   document.location.replace("/dashboard/new");
-}
+};
 
 async function deleteFormHandler(event) {
   event.preventDefault();
@@ -59,7 +59,7 @@ async function deleteFormHandler(event) {
   } else {
     alert(response.statusText);
   }
-}
+};
 
 async function editFormHandler(event) {
   event.preventDefault();
@@ -88,4 +88,4 @@ async function editFormHandler(event) {
   } else {
     alert(response.statusText);
   }
-}
+};
