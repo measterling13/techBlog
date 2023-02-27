@@ -4,7 +4,7 @@ const {
     User,
     Post,
     Comment
-} = require('../models');
+} = require('../model');
 
 router.get('/', (req, res) => {
     Post.findAll({
