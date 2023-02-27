@@ -109,3 +109,11 @@ router.get('/signup', (req, res) => {
 
     res.render('signup');
 });
+
+router.get('*', (req, res) => {
+    res.status(404).send("No No No wrong spot!");
+    res.redirect('/');
+})
+
+
+module.exports = router;
