@@ -25,6 +25,8 @@ const sess = {
 const app = express();
 const PORT = process.env.PORT || 3001;
 
+app.use(session(sess));
+
 app.engine('handlebars', hbs.engine);
 app.set('view engine', 'handlebars');
 
