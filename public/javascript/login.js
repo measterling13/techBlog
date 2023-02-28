@@ -13,10 +13,10 @@ async function loginFormHandler(event) {
       method: "post",
       body: JSON.stringify({
         username,
-        password,
+        password
       }),
       headers: {
-        "Content-Type": "application/json",
+        "Content-Type": "application/json"
       },
     });
 
